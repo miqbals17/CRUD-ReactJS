@@ -1,6 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const { add, show, home, edit, del } = require('./controller');
 const { routes } = require('./routes');
 const app = express();
 
